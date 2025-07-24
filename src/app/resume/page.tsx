@@ -1,4 +1,5 @@
 import Achievement from '@/modules/common/components/achievement.component'
+import Percentages from '@/modules/common/components/percentages.component'
 import Layout from '@/modules/common/layouts/layout'
 import React from 'react'
 
@@ -35,13 +36,16 @@ export default function ResumePage() {
                 <h2 className="text-2xl text-white font-semibold">Languages</h2>
 
                 <article className="bg-gradient-to-br from-neutral-800 to-neutral-900 rounded-xl  px-8 py-8 gap-8   flex flex-col mt-5">
-                    
+                    <Percentages />
+                    <Percentages />
                 </article>
             </section>
             <section className="mt-10">
                 <h2 className="text-2xl text-white font-semibold">My Skills</h2>
                 <article className="bg-gradient-to-br from-neutral-800 to-neutral-900 rounded-xl px-8 py-8 gap-8  flex flex-col mt-5">
-                    
+                    <Percentages />
+                    <Percentages />
+                    <Percentages />
                 </article>
             </section>
         </Layout>
